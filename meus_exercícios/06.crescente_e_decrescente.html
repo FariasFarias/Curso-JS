@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crescente e Decrescente</title>
+</head>
+<body>
+    <h1>Número na ordem crescente e decrescente</h1>
+    Primeiro Número <input type="number" name="num1" id="num1"><br>
+    Segundo Número <input type="number" name="num2" id="num2"><br>
+    Terceiro Número <input type="number" name="num3" id="num3"><br>
+    <input type="button" value="Mostrar maior e menor número" onclick="mostrar()">
+
+    <script>
+        function mostrar(){
+            let n1 = Number(document.querySelector('#num1').value)
+            let n2 = Number(document.querySelector('#num2').value)
+            let n3 = Number(document.querySelector('#num3').value)
+
+            
+            var Primeiro;
+            var Segundo;
+            var Terceiro;
+            
+            if(n1 < n2 && n1 < n3){
+                Primeiro = n1
+            } else if (n2 < n1 && n2 < n3){
+                Primeiro = n2
+            } else {
+                Primeiro = n3
+            }
+            
+            if(n1 > n2 && n1 > n3){
+                Terceiro = n1
+            } else if (n2 > n1 && n2 > n3){
+                Terceiro = n2
+            } else {
+                Terceiro = n3
+            }
+
+            if(n1 < Terceiro && n1 > Primeiro){
+                Segundo = n1
+            } else if(n2 < Terceiro && n2 > Primeiro) {
+                Segundo = n2
+            } else {
+                Segundo = n3
+            }
+            alert(`Ordem Crescente: ${Primeiro}, ${Segundo}, ${Terceiro}\n Ordem decrescente ${Terceiro}, ${Segundo}, ${Primeiro}`)
+        }
+       
+
+        
+    </script>
+</body>
+</html>

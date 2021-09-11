@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maior número</title>
+    <style>
+        div{
+            font: normal 50pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Maior número</h1>
+    <p>digite um número e ira mostrar na tela o maior entre eles</p>
+    <input type="number" name="n1" id="n1">
+    <input type="number" name="n2" id="n2">
+    <input type="number" name="n3" id="n3">
+    <input type="button" value="MAIOR NÚMERO" onclick="maior()">
+    <div id="numeromaior"></div>
+    
+    <script>
+        function maior(){
+            var n1 = document.querySelector("#n1")
+            var n2 = document.querySelector("#n2")
+            var n3 = document.querySelector("#n3")
+            var numero = document.querySelector("#numeromaior")
+
+            if(Number.parseInt(n1.value) > Number.parseInt(n2.value) && Number.parseInt(n1.value) > Number.parseInt(n3.value)){
+                numero.innerHTML = `O maior número entre eles é ${n1.value}`
+            } else if(Number.parseInt(n2.value) > Number.parseInt(n1.value) && Number.parseInt(n2.value) > Number.parseInt(n3.value)){
+                numero.innerHTML = `O maior número entre eles é ${n2.value}`
+            } else {
+                numero.innerHTML = `O maior número entre ele é ${n3.value}`
+            }
+        }
+    </script>
+</body>
+</html>

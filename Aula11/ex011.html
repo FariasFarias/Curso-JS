@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>verificar nacionalidae</title>
+</head>
+<body>
+    <h1>Sua nacionalodidade</h1> <!--titulo-->
+    <!--CAIXA DE TEXTO PARA INSERIR-->
+    Qual é o pais que você mora?
+    
+    <input type="text" name="pais" id="pais">
+    <!--botão de verificar-->
+    <input type="button" value="verificar" id="verificar" onclick="clicar()">
+    <div id="res">
+    <script>
+           
+        function clicar(){
+            var n = window.document.getElementById('pais').value
+            var txn1 = window.document.getElementById('res')
+
+            var n2 = n.toUpperCase()
+
+            if (n2 == 'BRASIL'){
+                txn1.innerHTML = `seu pais é ${n2} logo`
+                txn1.innerHTML += " você é brasileiro"
+            } else{
+                txn1.innerHTML = `seu pais é ${n2} logo `
+                txn1.innerHTML += "Você é estrangeiro" 
+            }
+        }
+    </script>
+
+
+</body>
+</html>

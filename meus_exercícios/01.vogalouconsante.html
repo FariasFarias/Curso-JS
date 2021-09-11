@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vogal ou cosoante</title>
+</head>
+<body>
+   <h1>Vogal ou consoante</h1>
+   <div>
+       <input type="text" name="text" id="letra" maxlength="1">
+       <input type="button" value="verificar" onclick="verificar()">
+   </div>
+
+   <script>
+       function verificar(){
+           let letra = window.document.querySelector('#letra')
+           let l = letra.value.toUpperCase()
+           let tipo = Number(l).toString()
+           if(l == 'A' || l == 'E'|| l == 'I'|| l == 'O' || l == 'U') {
+               alert(`A letra "${letra.value}" é uma vogal`)
+           } else if (tipo == 'NaN'){
+                alert(`A letra "${letra.value}" é uma consoante`)
+           } else {
+               alert('insira uma letra, por favor')
+           }
+        }
+   </script>
+</body>
+</html>

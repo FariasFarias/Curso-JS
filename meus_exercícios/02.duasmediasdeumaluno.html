@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média entre duas notas</title>
+</head>
+<body>
+    <h1>Média entre duas notas</h1>
+    <input type="number" name="n1" id="nota1" min="0" max="10">
+    <input type="number" name="n2" id="nota2" min="0" max="10">
+    <input type="button" value="Calcular" onclick="calcular()">
+
+    <script>
+        function calcular(){
+        let n1 = window.document.querySelector("#nota1")
+        let n2 = window.document.querySelector("#nota2")
+
+        let med = (Number(n1.value)+Number(n2.value))/2
+
+       if(med > 11 || med < -1){
+           alert('insira um numeros validos de 1 á 10')
+       } else if(med >= 7 && med <= 9.9){
+        alert(`O aluno está aprovado com nota ${med}`)
+       } else if (med == 10){
+           alert(`O aluno está aprovado com Distinção nota ${med}`)
+       } else {
+           alert(`O aluno está reprovado com nota ${med}`)
+       }
+
+        }
+    </script>
+</body>
+</html>

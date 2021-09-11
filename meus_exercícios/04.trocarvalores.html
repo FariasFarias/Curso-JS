@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trocar valores</title>
+</head>
+<body>
+    <h1>Trocar valores</h1>
+
+    Primeiro número: <input type="number" name="num1" id="num1">
+    Segundo número:  <input type="number" name="num2" id="num2">
+     
+    <input type="button" value="inverter" onclick="inverter()">
+
+    <script>
+        function inverter(){
+        var num1 = Number(document.querySelector('#num1').value)
+        var num2 = Number(document.querySelector('#num2').value)
+        
+        //var texto1 = 'Primeiro número é '+ num1 +' Segundo Número é '+ num2
+        var texto1 = `Primmeiro número é ${num1} Segundo Número é ${num2}`
+
+        var save = num1
+        num1 = num2
+        num2 = save
+        
+        //var texto2 = 'Primeiro número é '+ num1 +' Segundo Número é '+ num2
+        var texto2 = `Primeiro número é ${num1} Segundo Número é ${num2}`
+
+        alert(`Antes: ${texto1} \n Depois: ${texto2}`)
+        
+        }
+
+    </script>
+</body>
+</html>
