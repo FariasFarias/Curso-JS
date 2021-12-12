@@ -26,6 +26,6 @@ O javaScript surgiu como uma tecnologia para clientes. Porém hoje é utilizado 
 
 ## Website
 Os websites são compostos por 3 tecnologia do lado do cliente.
-1. HTML -> contéudo
-2. CSS -> design ou estilo
-3. JAVASCRIPT -> interatividade
+1. HTML -> Contéudo
+2. CSS -> Design ou estilo
+3. JAVASCRIPT -> Interatividade
