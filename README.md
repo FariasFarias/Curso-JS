@@ -1,2 +1,18 @@
-# Curso-JS
- Meu curso  de JS
+# Curso Básico de JavaScript
+
+JavaScript é uma das linguagem de programação mias populares atualmente!
+---
+## Exemplos de site que usam JavaScript
+1. Google
+2. Youtube
+3. Linkidin
+4. Netflix
+5. Facebook
+6. Uber
+7. Paypal
+
+## O que vamos aprender?
+* Os fundamentos da linguagem JavaScript;
+* Trabalhar no modo gráfico utilizando o Google Chrome;
+* Construções de páginas web interativas utilizando a linguagem;
+* Trabalhar com o Node.js que executa o JavaScript fora dos navegadores;
