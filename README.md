@@ -24,7 +24,7 @@ JavaScript é uma das linguagem de programação mais populares atualmente!
 ## Client x Server (Cliente x Servidor)
 
 ![Tux svg](https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/96/Devices-computer-icon.png)
-# X!
-[Tux svg](https://icons.iconarchive.com/icons/designcontest/ecommerce-business/96/smartphone-android-icon.png)
+# X
+![Tux svg](https://icons.iconarchive.com/icons/designcontest/ecommerce-business/96/smartphone-android-icon.png)
 
 
