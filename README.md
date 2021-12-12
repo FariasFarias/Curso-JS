@@ -1,7 +1,9 @@
 # Curso Básico de JavaScript
 
 JavaScript é uma das linguagem de programação mais populares atualmente!
+
 ![Tux svg](https://icons.iconarchive.com/icons/cornmanthe3rd/plex/72/Other-html-5-icon.png)
+
 ## Exemplos de site que usam JavaScript
 1. Google
 2. Youtube
