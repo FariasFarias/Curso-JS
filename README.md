@@ -21,7 +21,10 @@ JavaScript é uma das linguagem de programação mais populares atualmente!
 
 # Aula 01 - O que o JavaScript é capaz de fazer?
 
-## Client x Server (Cliente x Servidor).
+## Client x Server (Cliente x Servidor)
 
+![Tux svg](https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/96/Devices-computer-icon.png)
+# X!
+[Tux svg](https://icons.iconarchive.com/icons/designcontest/ecommerce-business/96/smartphone-android-icon.png)
 
 
